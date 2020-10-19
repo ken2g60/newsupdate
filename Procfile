@@ -1,1 +1,1 @@
-web: gunicorn symbackend.wsgi
+web: gunicorn newsbackend.wsgi
