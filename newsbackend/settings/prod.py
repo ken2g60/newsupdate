@@ -80,12 +80,11 @@ WSGI_APPLICATION = 'newsbackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT'),
-        'OPTIONS': {'sslmode': 'require'},
+        'NAME': 'd63c36mrm423gn',
+        'USER': 'pqczqubhkawjvl',
+        'PASSWORD': '94099fc72be659dfe76343e68d822f5128de1735cb48b4b8e5c69a213fefb93c',
+        'HOST': 'ec2-52-3-4-232.compute-1.amazonaws.com',
+        'PORT': 5432
     }
 }
 
